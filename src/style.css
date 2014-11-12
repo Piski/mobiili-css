@@ -1,0 +1,77 @@
+* {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #323233;
+}
+
+.container {
+    background-color: #323233;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+/*color: #323233 & #FF0080*/
+
+.Heta {
+	float: left;
+	width: 48%;
+	height: 100%;
+	text-align: center;
+    color: #323233;
+	background-color: #FF0080;
+    margin: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.Sergei {
+	float: left;
+	width: 48%;;
+	height: 100%;
+	text-align: center;
+    color: #323233;
+    background-color: #FF0080;
+    margin: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
+#hetaContent {
+    float: left;
+    width: 45%;
+    margin-left: 1%;
+    padding: 5px;;
+    color: white;
+}
+
+#sergeiContent {
+    float: left;
+    width: 45%;
+    margin-left: 3%;
+    padding: 5px;
+    color: white;
+}
+
+#hetaImage {
+    float: left;
+    width: 45%;
+    margin-left: 1%;
+    padding: 5px;;
+    
+}
+
+#sergeiImage {
+    float: left;
+    width: 45%;
+    margin-left: 3%;
+    padding: 5px;;
+}
