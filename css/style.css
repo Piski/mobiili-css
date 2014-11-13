@@ -62,16 +62,31 @@ body {
 }
 
 #hetaImage {
+    display: none;
+    left: 50%;
     float: left;
     width: 45%;
     margin-left: 1%;
     padding: 5px;;
-    
 }
 
 #sergeiImage {
+    display: none;
     float: left;
     width: 45%;
     margin-left: 3%;
     padding: 5px;;
 }
+
+#heta {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#sergei {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
