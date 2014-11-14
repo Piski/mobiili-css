@@ -6,40 +6,68 @@ body {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    background-color: #323233;
+    background-color: #59c4c5;
 }
 
 .container {
-    background-color: #323233;
     width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    position: relative;
+    margin: auto;
 }
 
-.row {
-    width: 100%;
+.container-heta {
+    float: left;
+    background-color: #fbe2b4;
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    margin-left: 3%;
 }
+
+.container-sergei {
+    float: right;
+    background-color: #fbe2b4;
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    margin-right: 3%;
+}
+
 
 /*color: #323233 & #FF0080*/
 
+
 .Heta {
 	float: left;
-	width: 48%;
+	width: 100%;
 	height: 100%;
 	text-align: center;
     color: #323233;
-	background-color: #FF0080;
-    margin: 5px;
+	background-color: #ff4c65;
+    display: block;
+    margin: auto;
     margin-top: 5px;
     border-radius: 5px;
 }
 
 .Sergei {
 	float: left;
-	width: 48%;;
+	width: 100%;;
 	height: 100%;
 	text-align: center;
     color: #323233;
-    background-color: #FF0080;
-    margin: 5px;
+    background-color: #ff4c65;
+    display: block;
+    margin: auto;
     margin-top: 5px;
     border-radius: 5px;
 }
@@ -47,46 +75,53 @@ body {
 
 #hetaContent {
     float: left;
-    width: 45%;
-    margin-left: 1%;
+    width: 30%;
     padding: 5px;;
-    color: white;
+    color: #323233;
 }
 
 #sergeiContent {
     float: left;
-    width: 45%;
-    margin-left: 3%;
+    width: 30%;
     padding: 5px;
-    color: white;
+    color: #323233;
 }
 
 #hetaImage {
     display: none;
-    left: 50%;
     float: left;
-    width: 45%;
-    margin-left: 1%;
+    width: 60%;
     padding: 5px;;
+    padding-top: 10px;
 }
 
 #sergeiImage {
     display: none;
     float: left;
-    width: 45%;
-    margin-left: 3%;
-    padding: 5px;;
+    width: 60%;
+    padding: 5px;
+    padding-top: 10px;
 }
 
 #heta {
     display: block;
     margin: auto;
+    float: right;
     border: 1px solid black;
 }
 
 #sergei {
     display: block;
     margin: auto;
+    float: right;
     border: 1px solid black;
+}
+
+#hetaList {
+    list-style-type: none;
+}
+
+#sergeiList {
+    list-style-type: none;
 }
 
