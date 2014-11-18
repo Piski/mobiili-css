@@ -1,4 +1,4 @@
-mobili-css
+mobiili-css
 ==========
 
 Mobiiohjelmointi CSS Media Query
