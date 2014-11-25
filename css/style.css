@@ -1,0 +1,457 @@
+@font-face {
+    font-family: "Fairview";
+    src: url(fonts/Fairview_Regular.otf);
+}
+* {
+    font-family: 'Fairview';
+    /*font-family: 'Shadows Into Light', cursive;*/
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 40px;
+}
+body {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #2B2B2B;
+}
+h3 {
+    height: 5%;
+    width: 5%;
+    font-size: 26px;
+}
+.container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    position: relative;
+    margin: auto;
+}
+.container-heta {
+    float: left;
+    background-color: #fbe2b4;
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: auto;
+}
+.container-sergei {
+    float: right;
+    background-color: #fbe2b4;
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: auto;
+}
+/*color: #323233 & #FF0080 & #656469 & #e9dfd5*/
+
+.Heta {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #323233;
+    background-color: #ff4c65;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.Sergei {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #323233;
+    background-color: #ff4c65;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#hetaContent {
+    float: left;
+    width: 40%;
+    height: 100%;
+    padding: 5px;
+    color: #323233;
+}
+#sergeiContent {
+    float: left;
+    width: 40%;
+    height: 100%;
+    padding: 5px;
+    color: #323233;
+}
+#hetaImage {
+    display: block;
+    float: right;
+    width: 50%;
+    padding: 5px;
+    padding-top: 30px;
+    margin-top 20px;
+}
+#sergeiImage {
+    display: block;
+    float: right;
+    width: 50%;
+    padding: 5px;
+    padding-top: 30px;
+    margin-top 20px;
+}
+#heta {
+    display: block;
+    margin: auto;
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+#sergei {
+    display: block;
+    margin: auto;
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+#hetaList {
+    list-style-type: none;
+}
+#sergeiList {
+    list-style-type: none;
+}
+@media screen and (max-width: 1919px) {
+    .container-heta {
+        float: left;
+        background-color: #fbe2b4;
+        width: 40%;
+        overflow: hidden;
+        border-radius: 5px;
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-right: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 5%;
+        height: auto;
+    }
+    #heta {
+        display: block;
+        margin: auto;
+        float: right;
+        width: 50%;
+        height: 50%;
+    }
+    #hetaImage {
+        display: block;
+        float: right;
+        width: 40%;
+        padding: 5px;
+        height: 200%;
+        padding-top: 10px;
+    }
+    #hetaContent {
+        float: left;
+        width: 55%;
+        padding: 5px;
+        color: #323233;
+    }
+    .container-sergei {
+        float: left;
+        background-color: #fbe2b4;
+        width: 40%;
+        overflow: hidden;
+        border-radius: 5px;
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-right: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 5%;
+        height: auto;
+    }
+    #sergeiImage {
+        display: block;
+        float: right;
+        width: 40%;
+        padding: 5px;
+        padding-top: 10px;
+        height: 200%;
+    }
+    #sergei {
+        display: block;
+        margin: auto;
+        float: right;
+        width: 50%;
+        height: 50%;
+    }
+    #sergeiContent {
+        float: left;
+        width: 55%;
+        padding: 5px;
+        color: #323233;
+    }
+}
+@media screen and (max-width: 1279px) {
+    .container-heta {
+        float: left;
+        background-color: #fbe2b4;
+        width: 90%;
+        overflow: hidden;
+        border-radius: 5px;
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-right: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 5%;
+    }
+    #heta {
+        display: block;
+        margin: auto;
+        float: right;
+        width: 50%;
+        height: 50%;
+    }
+    #hetaImage {
+        display: block;
+        float: right;
+        width: 40%;
+        padding: 5px;
+        padding-top: 10px;
+    }
+        #hetaContent {
+        float: left;
+        width: 55%;
+        padding: 5px;
+        color: #323233;
+    }
+    .container-sergei {
+        float: left;
+        background-color: #fbe2b4;
+        width: 90%;
+        overflow: hidden;
+        border-radius: 5px;
+        padding-left: 4%;
+        padding-top: 5%;
+        padding-right: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #sergeiImage {
+        display: block;
+        float: right;
+        width: 40%;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    #sergei {
+        display: block;
+        margin: auto;
+        float: right;
+        width: 50%;
+        height: 50%;
+    }
+        #sergeiContent {
+        float: left;
+        width: 55%;
+        padding: 5px;
+        color: #323233;
+    }
+}
+@media screen and (max-device-width: 799px) {
+    * {
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-size: 50px;
+    }
+    
+    .container-heta {
+        background-color: #fbe2b4;
+        width: 90%;
+        overflow: hidden;
+        border-radius: 5px;
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-right: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 5%;
+        height: auto;
+    }
+    #heta {
+        width: 100%;
+        height: 100%;
+        float:right;
+    }
+    #hetaImage {
+        display: block;
+        float: right;
+        width: 45%;
+        height: 45%;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    #hetaContent {
+        float: left;
+        width: 50%;
+        padding: 5px;
+        color: #323233;
+    }
+    .Heta {
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #323233;
+        background-color: #ff4c65;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .container-sergei {
+        float: left;
+        background-color: #fbe2b4;
+        width: 90%;
+        overflow: hidden;
+        border-radius: 5px;
+        padding-left: 4%;
+        padding-top: 5%;
+        padding-right: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: auto;
+    }
+    #sergeiImage {
+        display: block;
+        float: right;
+        width: 45%;
+        height: 45%;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    #sergei {
+        width: 100%;
+        height: 100%;
+        float:right;
+    }
+    #sergeiContent {
+        width: 50%;
+        padding: 5px;
+        color: #323233;
+        margin: auto;
+    }
+    .Sergei {
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #323233;
+        background-color: #ff4c65;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    
+    .container-heta {
+        background-color: #fbe2b4;
+        width: 90%;
+        overflow: hidden;
+        border-radius: 5px;
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-right: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 5%;
+        height: auto;
+    }
+    #heta {
+        width: 100%;
+        height: 100%;
+        float:right;
+    }
+    #hetaImage {
+        display: block;
+        float: right;
+        width: 45%;
+        height: 45%;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    #hetaContent {
+        float: left;
+        width: 45%;
+        padding: 5px;
+        color: #323233;
+    }
+    .Heta {
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #323233;
+        background-color: #ff4c65;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .container-sergei {
+        float: left;
+        background-color: #fbe2b4;
+        width: 90%;
+        overflow: hidden;
+        border-radius: 5px;
+        padding-left: 4%;
+        padding-top: 5%;
+        padding-right: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: auto;
+    }
+    #sergeiImage {
+        display: block;
+        float: right;
+        width: 45%;
+        height: 45%;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    #sergei {
+        width: 100%;
+        height: 100%;
+        float:right;
+    }
+    #sergeiContent {
+        width: 45%;
+        padding: 5px;
+        color: #323233;
+        margin: auto;
+    }
+    .Sergei {
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #323233;
+        background-color: #ff4c65;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+}
