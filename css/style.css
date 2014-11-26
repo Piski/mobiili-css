@@ -7,6 +7,7 @@
     /*font-family: 'Shadows Into Light', cursive;*/
     font-size: 24px;
 }
+
 h1 {
     font-size: 40px;
 }
@@ -82,27 +83,30 @@ h3 {
 #hetaContent {
     float: left;
     width: 40%;
+    height: 100%;
     padding: 5px;
     color: #323233;
 }
 #sergeiContent {
     float: left;
     width: 40%;
+    height: 100%;
     padding: 5px;
     color: #323233;
 }
 #hetaImage {
-    display: none;
+    display: block;
     float: right;
-    width: 55%;
+    width: 50%;
+    height: 50%
     padding: 5px;
     padding-top: 30px;
     margin-top 20px;
 }
 #sergeiImage {
-    display: none;
+    display: block;
     float: right;
-    width: 55%;
+    width: 50%;
     padding: 5px;
     padding-top: 30px;
     margin-top 20px;
@@ -112,14 +116,12 @@ h3 {
     margin: auto;
     float: right;
     width: 50%;
-    height: 50%;
 }
 #sergei {
     display: block;
     margin: auto;
     float: right;
     width: 50%;
-    height: 50%;
 }
 #hetaList {
     list-style-type: none;
@@ -150,7 +152,7 @@ h3 {
         height: 50%;
     }
     #hetaImage {
-        display: none;
+        display: block;
         float: right;
         width: 40%;
         padding: 5px;
@@ -178,7 +180,7 @@ h3 {
         height: auto;
     }
     #sergeiImage {
-        display: none;
+        display: block;
         float: right;
         width: 40%;
         padding: 5px;
@@ -218,16 +220,16 @@ h3 {
         margin: auto;
         float: right;
         width: 50%;
-        height: 50%;
     }
     #hetaImage {
-        display: none;
+        display: block;
         float: right;
         width: 40%;
+	height: auto;
         padding: 5px;
         padding-top: 10px;
     }
-    #hetaContent {
+        #hetaContent {
         float: left;
         width: 55%;
         padding: 5px;
@@ -246,9 +248,10 @@ h3 {
         margin-right: 1%;
     }
     #sergeiImage {
-        display: none;
+        display: block;
         float: right;
         width: 40%;
+	height: auto;
         padding: 5px;
         padding-top: 10px;
     }
@@ -257,7 +260,7 @@ h3 {
         margin: auto;
         float: right;
         width: 50%;
-        height: 50%;
+	height: 50%
     }
     #sergeiContent {
         float: left;
@@ -266,7 +269,15 @@ h3 {
         color: #323233;
     }
 }
-@media screen and (max-width: 799px) {
+@media screen and (max-device-width: 799px) {
+    * {
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-size: 50px;
+    }
+    
     .container-heta {
         background-color: #fbe2b4;
         width: 90%;
@@ -282,19 +293,19 @@ h3 {
     }
     #heta {
         width: 100%;
-        height: 100%;
-        float: right;
+        float:right;
     }
     #hetaImage {
-        display: none;
+        display: block;
         float: right;
-        width: 35%;
+        width: 45%;
+        height: 45%;
         padding: 5px;
         padding-top: 10px;
     }
     #hetaContent {
         float: left;
-        width: 55%;
+        width: 50%;
         padding: 5px;
         color: #323233;
     }
@@ -323,19 +334,107 @@ h3 {
         height: auto;
     }
     #sergeiImage {
-        display: none;
+        display: block;
         float: right;
-        width: 35%;
+        width: 45%;
+        height: 45%;
         padding: 5px;
         padding-top: 10px;
     }
     #sergei {
         width: 100%;
-        height: 100%;
-        float: right;
+        float:right;
     }
     #sergeiContent {
-        width: 55%;
+        width: 50%;
+        padding: 5px;
+        color: #323233;
+        margin: auto;
+    }
+    .Sergei {
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #323233;
+        background-color: #ff4c65;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    
+    .container-heta {
+        background-color: #fbe2b4;
+        width: 90%;
+        overflow: hidden;
+        border-radius: 5px;
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-right: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 5%;
+        height: auto;
+    }
+    #heta {
+        width: 100%;
+        float:right;
+    }
+    #hetaImage {
+        display: block;
+        float: right;
+        width: 45%;
+        height: 45%;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    #hetaContent {
+        float: left;
+        width: 45%;
+        padding: 5px;
+        color: #323233;
+    }
+    .Heta {
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #323233;
+        background-color: #ff4c65;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .container-sergei {
+        float: left;
+        background-color: #fbe2b4;
+        width: 90%;
+        overflow: hidden;
+        border-radius: 5px;
+        padding-left: 4%;
+        padding-top: 5%;
+        padding-right: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: auto;
+    }
+    #sergeiImage {
+        display: block;
+        float: right;
+        width: 45%;
+        height: 45%;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    #sergei {
+        width: 100%;
+        float:right;
+    }
+    #sergeiContent {
+        width: 45%;
         padding: 5px;
         color: #323233;
         margin: auto;
