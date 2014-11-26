@@ -98,7 +98,10 @@ h3 {
     display: block;
     float: right;
     width: 50%;
+<<<<<<< HEAD
     height: 50%
+=======
+>>>>>>> origin/master
     padding: 5px;
     padding-top: 30px;
     margin-top 20px;
@@ -116,12 +119,20 @@ h3 {
     margin: auto;
     float: right;
     width: 50%;
+<<<<<<< HEAD
+=======
+    height: 50%;
+>>>>>>> origin/master
 }
 #sergei {
     display: block;
     margin: auto;
     float: right;
     width: 50%;
+<<<<<<< HEAD
+=======
+    height: 50%;
+>>>>>>> origin/master
 }
 #hetaList {
     list-style-type: none;
@@ -220,12 +231,19 @@ h3 {
         margin: auto;
         float: right;
         width: 50%;
+<<<<<<< HEAD
+=======
+        height: 50%;
+>>>>>>> origin/master
     }
     #hetaImage {
         display: block;
         float: right;
         width: 40%;
+<<<<<<< HEAD
 	height: auto;
+=======
+>>>>>>> origin/master
         padding: 5px;
         padding-top: 10px;
     }
@@ -251,7 +269,10 @@ h3 {
         display: block;
         float: right;
         width: 40%;
+<<<<<<< HEAD
 	height: auto;
+=======
+>>>>>>> origin/master
         padding: 5px;
         padding-top: 10px;
     }
@@ -260,9 +281,15 @@ h3 {
         margin: auto;
         float: right;
         width: 50%;
+<<<<<<< HEAD
 	height: 50%
     }
     #sergeiContent {
+=======
+        height: 50%;
+    }
+        #sergeiContent {
+>>>>>>> origin/master
         float: left;
         width: 55%;
         padding: 5px;
@@ -293,6 +320,10 @@ h3 {
     }
     #heta {
         width: 100%;
+<<<<<<< HEAD
+=======
+        height: 100%;
+>>>>>>> origin/master
         float:right;
     }
     #hetaImage {
@@ -343,6 +374,10 @@ h3 {
     }
     #sergei {
         width: 100%;
+<<<<<<< HEAD
+=======
+        height: 100%;
+>>>>>>> origin/master
         float:right;
     }
     #sergeiContent {
@@ -381,6 +416,10 @@ h3 {
     }
     #heta {
         width: 100%;
+<<<<<<< HEAD
+=======
+        height: 100%;
+>>>>>>> origin/master
         float:right;
     }
     #hetaImage {
@@ -431,6 +470,10 @@ h3 {
     }
     #sergei {
         width: 100%;
+<<<<<<< HEAD
+=======
+        height: 100%;
+>>>>>>> origin/master
         float:right;
     }
     #sergeiContent {
